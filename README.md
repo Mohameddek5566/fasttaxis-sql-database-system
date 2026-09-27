@@ -1,11 +1,13 @@
-# FastTaxis Database Application
+# FastTaxis SQL Database System
 
-A role-based database application for managing a taxi business. The system models drivers, vehicle owners, clients, bookings, vehicles and maintenance records, then presents tailored dashboards for operational users.
+An SQL database project for managing the information and operations of a taxi business. The core work is the relational database: its tables, relationships, constraints, sample records and reporting queries. PHP, HTML and CSS were then used to demonstrate how different users can interact with the database through a web interface.
 
 ## Features
 
-- MySQL relational schema and reusable setup script.
-- PHP application with login and role-based access for directors, staff, drivers and owners.
+- MySQL relational schema, relationships and reusable setup script.
+- Structured data for drivers, owners, clients, vehicles, bookings and maintenance.
+- SQL queries that support operational reporting and data retrieval.
+- A PHP, HTML and CSS interface that demonstrates role-based database access for directors, staff, drivers and owners.
 - Operational pages for bookings, vehicles, drivers, clients and maintenance.
 - Entity-relationship design and interface previews.
 - Reporting queries for business operations.
@@ -19,6 +21,6 @@ A role-based database application for managing a taxi business. The system model
 
 The included configuration uses XAMPP's local development defaults and contains no private production credentials.
 
-## Tools
+## Database focus
 
-MySQL, SQL, PHP, HTML, CSS, XAMPP and Draw.io.
+MySQL and SQL are the main technologies. PHP, HTML, CSS and XAMPP support the working database interface; Draw.io was used for the ERD.
